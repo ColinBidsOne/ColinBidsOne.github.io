@@ -1,29 +1,36 @@
 body {
     background-color: lightgray;
-    display: flex;                /* Enables Flexbox on the body element */
-    flex-direction: column;       /* Aligns items vertically */
-    justify-content: center;      /* Centers items vertically */
-    align-items: center;          /* Centers items horizontally */
-    height: 100vh;                /* Ensures the body takes up the full height of the viewport */
-    margin: 0;                    /* Removes any default margin */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
 }
 
 h1 {
-    color: blue;
     text-align: center;
     margin-top: 20px;
     padding: 10px;
+}
+
+#bright {
+    color: black; /* Initial color for 'Bright' */
+}
+
+#wright {
+    color: white; /* Initial color for 'Wright' */
 }
 
 p {
     font-family: Arial, sans-serif;
     font-size: 16px;
     text-align: center;
-    margin-bottom: 20px;          /* Adds some space between the paragraph and the button */
+    margin-bottom: 20px;
 }
 
 button {
-    padding: 10px 20px;           /* Adds padding inside the button */
-    font-size: 16px;              /* Increases the font size */
-    cursor: pointer;              /* Changes the cursor to a pointer when hovering */
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
 }
