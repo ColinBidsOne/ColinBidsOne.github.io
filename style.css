@@ -14,14 +14,6 @@ h1 {
     padding: 10px;
 }
 
-#bright {
-    color: black; /* Initial color for 'Bright' */
-}
-
-#wright {
-    color: white; /* Initial color for 'Wright' */
-}
-
 p {
     font-family: Arial, sans-serif;
     font-size: 16px;
